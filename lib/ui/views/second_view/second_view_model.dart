@@ -11,6 +11,6 @@ class SecondViewModel extends BaseViewModel {
   String get title => _title;
 
   Future navigateHome() async {
-    await _router.navigate(const ExampleView());
+    await _router.navigate(ExampleView(idk: "asd"));
   }
 }
